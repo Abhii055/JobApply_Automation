@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-10T00:14:40 IST" name="Default suite" finished-at="2024-09-10T00:15:39 IST" duration-ms="59694">
+    <groups>
+    </groups>
+    <test started-at="2024-09-10T00:14:40 IST" name="Default test" finished-at="2024-09-10T00:15:39 IST" duration-ms="59694">
+      <class name="jobHuntingPackage.focusApply">
+        <test-method signature="invokeBrowser()[pri:0, instance:jobHuntingPackage.focusApply@2532b351]" started-at="2024-09-10T00:14:40 IST" name="invokeBrowser" finished-at="2024-09-10T00:14:42 IST" duration-ms="1925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="login()[pri:0, instance:jobHuntingPackage.focusApply@2532b351]" started-at="2024-09-10T00:14:42 IST" name="login" finished-at="2024-09-10T00:14:45 IST" depends-on-methods="jobHuntingPackage.focusApply.invokeBrowser" duration-ms="3651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="updateResume()[pri:0, instance:jobHuntingPackage.focusApply@2532b351]" started-at="2024-09-10T00:14:45 IST" name="updateResume" finished-at="2024-09-10T00:14:59 IST" depends-on-methods="jobHuntingPackage.focusApply.login" duration-ms="13402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResume -->
+        <test-method signature="searchKeyword()[pri:0, instance:jobHuntingPackage.focusApply@2532b351]" started-at="2024-09-10T00:14:59 IST" name="searchKeyword" finished-at="2024-09-10T00:15:08 IST" depends-on-methods="jobHuntingPackage.focusApply.updateResume" duration-ms="9620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchKeyword -->
+        <test-method signature="applyjob()[pri:0, instance:jobHuntingPackage.focusApply@2532b351]" started-at="2024-09-10T00:15:08 IST" name="applyjob" finished-at="2024-09-10T00:15:39 IST" depends-on-methods="jobHuntingPackage.focusApply.searchKeyword" duration-ms="30997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyjob -->
+      </class> <!-- jobHuntingPackage.focusApply -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
