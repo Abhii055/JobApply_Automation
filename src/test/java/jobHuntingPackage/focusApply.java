@@ -33,7 +33,7 @@ public class focusApply {
 		userName.sendKeys("abhinavdwivedi0807@gmail.com");
 		Thread.sleep(1000);
 		WebElement userPass = driver.findElement(By.xpath("//input[@id='passwordField']"));
-		userPass.sendKeys("Atlas@123");
+		userPass.sendKeys("--------");
 
 		driver.findElement(By.xpath("//div[@class='login-wrapper col s6 card']//button[@class='waves-effect waves-light btn-large btn-block btn-bold blue-btn textTransform']")).click();
 	}
